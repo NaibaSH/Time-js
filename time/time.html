@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital clock with JavaScript and CSS</title>
+</head>
+<body>
+    <div class="clock">
+        <div class="clock_block clock_block_delay2" data-time-group>
+            <div class="clock_digit_group">
+                <div class="clock_digits" data-time="a">00</div>
+                <div class="clock_digits" data-time="b">00</div>
+            </div>
+        </div>
+        <div class="clock_colon"></div>
+        <div class="clock_block clock_block_delay1" data-time-group>
+            <div class="clock_digit_group">
+                <div class="clock_digits" data-time="a">00</div>
+                <div class="clock_digits" data-time="b">00</div>
+            </div>
+        </div>
+        <div class="clock_colon"></div>
+        <div class="clock_block" data-time-group>
+            <div class="clock_digit_group">
+                <div class="clock_digits" data-time="a">00</div>
+                <div class="clock_digits" data-time="b">00</div>
+            </div>
+        </div>
+
+        <div class="clock_block clock_block_delay2 clock_block_small" data-time-group>
+            <div class="clock_digit_group">
+                <div class="clock_digits" data-time="a">PM</div>
+                <div class="clock_digits" data-time="b">AM</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
